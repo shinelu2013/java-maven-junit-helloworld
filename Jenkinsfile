@@ -30,7 +30,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('print message') {
       steps {
         echo 'Build Finished~~~~~~~~~'
       }
